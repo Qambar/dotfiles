@@ -1,6 +1,6 @@
 # Qambar Raza's dotfiles
 
-![Screenshot of my shell prompt](https://i.imgur.com/EkEtphC.png)
+![Screenshot of my shell prompt](https://i.imgur.com/m2Y3D4L.png)
 
 ## Installation
 
