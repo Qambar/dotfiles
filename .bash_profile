@@ -54,3 +54,5 @@ export HOMEBREW_FORCE_BREWED_CURL=1
 export BOOT_JVM_OPTIONS="-Djavax.net.ssl.keyStore=$CERT_PATH \
 						 -Djavax.net.ssl.keyStorePassword=$CERT_PASSWORD \
  						 -Djavax.net.ssl.keyStoreType=PKCS12"
+# Add java home that is installed by the brew.sh
+JAVA_HOME=$(/usr/libexec/java_home)
