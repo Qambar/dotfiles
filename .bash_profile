@@ -49,3 +49,8 @@ complete -o "nospace" -W "Contacts Calendar Dock Finder Mail Safari iTunes Syste
 
 # Force Brew to use Brew cURL
 export HOMEBREW_FORCE_BREWED_CURL=1
+
+# Allow boot to work with the JVM Options
+export BOOT_JVM_OPTIONS="-Djavax.net.ssl.keyStore=$CERT_PATH \
+						 -Djavax.net.ssl.keyStorePassword=$CERT_PASSWORD \
+ 						 -Djavax.net.ssl.keyStoreType=PKCS12"
