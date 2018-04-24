@@ -93,5 +93,12 @@ brew install tree
 brew install vbindiff
 brew install zopfli
 
+brew tap caskroom/versions
+brew cask install java8
+
+brew install openssl coreutils awscli boot-clj git
+brew install curl --with-openssl
+brew link --force curl
+
 # Remove outdated versions from the cellar.
 brew cleanup
