@@ -1,3 +1,6 @@
+# Set Config Environment Variables
+eval $(cat ~/.config)
+
 # Add `~/bin` to the `$PATH`
 export PATH="$HOME/bin:$PATH";
 
