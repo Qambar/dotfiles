@@ -93,6 +93,7 @@ brew install tree
 brew install vbindiff
 brew install zopfli
 brew install ag
+brew install pyenv
 
 brew tap caskroom/versions
 brew cask install java8
